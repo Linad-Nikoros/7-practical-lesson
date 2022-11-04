@@ -1,6 +1,5 @@
 ﻿// Задача 52.  Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
-int[,] array1 = new int[5, 7
-];
+int[,] array1 = new int[5, 7];
 
 void fill_array()
 {
@@ -26,7 +25,7 @@ void pint_array()
 }
 
 fill_array();
- pint_array();
+pint_array();
 
 int sum = 0;
 int average = 0;
